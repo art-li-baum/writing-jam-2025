@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdwrtiyd7wsvn"]
+
+[ext_resource type="Script" uid="uid://ch6p62juc6acm" path="res://addons/arcweave/Editor/ArcweaveNode.cs" id="1_oqoec"]
+[ext_resource type="Resource" uid="uid://bhrpl3snpgvol" path="res://aw_test.tres" id="2_6v5sk"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Arcweave" type="Node" parent="."]
+script = ExtResource("1_oqoec")
+ArcweaveAsset = ExtResource("2_6v5sk")
+metadata/_custom_type_script = "uid://ch6p62juc6acm"
